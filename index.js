@@ -272,7 +272,8 @@ import express from "express";
 import { connectionDataBase } from "./config.js";
 import { Productmodel } from "./product.js";
 import multer from "multer";
-
+import dotenv from "dotenv"
+dotenv.config()
 const app = express();
 app.use(express.json());
 
